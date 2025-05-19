@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Escapist</h1>
+            <ul>
+                <li><a href="#" target="_blank">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="./login.html">login</a></li>
+            </ul>
+            
+    </div>
+
+        <div class="img-content">
+        <img onclick="moveimg()" ondblclick="moveright()" style="border: 2px solid rgb(61, 3, 3);" src="Escapeist.png" class="imge" id="imge" alt="">
+        <div class="text">
+            <h2>Are you Ready?</h2>
+            <h3>Here you can come to our<br>many escape rooms<br>or find other amazing<br>challanging rooms. <br>If so, Click <br> <- </h3>
+        </div>
+    </div>
+
+    <div id="list1" class="dropdown-check-list" tabindex="100">
+        <span class="anchor">Pick your room</span>
+        <ul class="items">
+          <li><input type="checkbox" />Escapeist classic </li>
+          <li><input type="checkbox" />Escapiest Advanced</li>
+          <li><input type="checkbox" /> Sherlocked Escape Room Amsterdam</li>
+          <li><input type="checkbox" />Mr. X Mystery House Shanghai </li>
+          <li><input type="checkbox" />Escape Boats</li>
+          <li><input type="checkbox" />Escape Hunt Worldwide </li>
+          <li><input type="checkbox" />Enigma Quest</li>
+        </ul>
+      </div>
+      <div class="submit" onclick="alert()">
+        <div onclick="alert()" class="cirlec">
+            <h3  class="sub">Click here to submit your purchase</h3>
+        </div>
+        </div>
+    
+
+    <div class="spotlights">
+
+    </div>
+
+        
+    
+
+    <script src="js.js"></script>
+    <script src="gsap.min.js"></script>
+</body>
+</html>

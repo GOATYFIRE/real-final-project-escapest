@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Trade Winds", system-ui;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(to bottom right, rgb(58, 15, 15), black);
+    overflow: hidden;
+}
+
+img {
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    position: absolute;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 400px;
+    height: 60px;
+    margin: 30px -17px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #4d4d4d;
+    margin: 0px 0 0px 20px;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.remember-forgot {
+    margin: 0px 0px 0px 140px;
+}
+
+.remember-forgot:hover {
+    scale: 1.2;
+    margin: 0 0 0 157px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #eb0d0541;
+    border: none;
+    font-size: 24px;
+}
+
+.btn:hover {
+    border: 2px solid black;
+    transition: 0.3s;
+    height: 33px;
+}
+
+.register-link {
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+.register-link a {
+    color: red;
+    text-decoration: none;
+}
+
+
+.register-link a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}

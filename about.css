@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&family=Vibur&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(rgb(189, 0,0), rgb(58, 1, 1),rgb(3, 3, 3));
+}
+
+.hello {
+    padding: 20px;
+    position: absolute;
+}
+ .email {
+    padding-top: 400px;
+    padding-left: 40%;
+    text-decoration: none;
+    position: absolute;
+    text-decoration: none;
+}
+.email a {
+    color: red;
+    text-decoration: none;
+    transition: 2s;
+}
+
+.email a:hover {
+    text-decoration: underline;
+    color: rgb(114, 10, 211);
+}
